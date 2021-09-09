@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="incentro.countryswitch.CountrySwitch" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Country Switch</name>
+    <description>Simple dropdown to select a country and display the flag</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="enumeration" type="attribute" onChange="onEnumChange">
+                <caption>Enumeration</caption>
+                <description>List of countries</description>
+                <attributeTypes>
+                    <attributeType name="Enum"/>
+                </attributeTypes>
+            </property>
+            <property key="onEnumChange" type="action">
+                <caption>On change</caption>
+                <description/>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
