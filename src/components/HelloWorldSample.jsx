@@ -1,4 +1,5 @@
-import "../ui/flagpack.css";
+// import "../ui/flagpack.css";
+import "flagpack/dist/flagpack.css";
 import { createElement } from "react";
 
 export const HelloWorldSample = ({ selectedCountry, countries, onChange }) => {

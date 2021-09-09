@@ -5,29 +5,29 @@
   "description": "Simple dropdown to select a country and display the flag",
   "copyright": "2021 Incentro International B.V.",
   "author": "Rob Duits",
-  "engines": {
-    "node": ">=12"
-  },
   "config": {
+    "widgetPath": "../..//widgets",
     "projectPath": "../..//",
     "mendixHost": "http://localhost:8080",
     "developmentPort": "3000"
   },
   "packagePath": "incentro",
   "scripts": {
-    "start": "pluggable-widgets-tools start:web",
-    "build": "pluggable-widgets-tools build:web",
+    "start": "concurrently \"pluggable-widgets-tools start:server --open\" \"npm:dev\"",
+    "dev": "pluggable-widgets-tools start:js",
+    "build": "pluggable-widgets-tools build:js",
     "lint": "pluggable-widgets-tools lint",
     "lint:fix": "pluggable-widgets-tools lint:fix",
     "prerelease": "npm run lint",
-    "release": "pluggable-widgets-tools release:web"
+    "release": "pluggable-widgets-tools release:js"
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^9.5.2"
+    "@mendix/pluggable-widgets-tools": "^8.7.0"
   },
   "dependencies": {
-    "classnames": "^2.3.1",
+    "big.js": "^5.2.2",
+    "classnames": "^2.2.6",
     "flagpack": "^1.0.5"
   }
 }
