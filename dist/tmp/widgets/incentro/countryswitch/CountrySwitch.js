@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "d73351cf56b28f0baa41";
+/******/ 	var hotCurrentHash = "1dc6295efb86dd53fbbf";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -8423,7 +8423,6 @@ var HelloWorldSample = function HelloWorldSample(_ref) {
   var countryList = _toConsumableArray(countries.universe);
 
   var selectedFlag = "fp ".concat(selectedCountry.toLowerCase());
-  console.info("selectedFlag", selectedFlag);
   return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", {
     className: "countryswitch form-group mx-radiobuttons"
   }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", {

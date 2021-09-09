@@ -5,7 +5,6 @@ import { createElement } from "react";
 export const HelloWorldSample = ({ selectedCountry, countries, onChange }) => {
     const countryList = [...countries.universe];
     const selectedFlag = `fp ${selectedCountry.toLowerCase()}`;
-    console.info("selectedFlag", selectedFlag);
 
     return (
         <div className="countryswitch form-group mx-radiobuttons">
