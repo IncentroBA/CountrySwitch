@@ -1,10 +1,16 @@
 import "./ui/CountrySwitch.css";
-import { createElement, useState } from "react";
+import { createElement, useState, useEffect } from "react";
 import { HelloWorldSample } from "./components/HelloWorldSample";
 
 export default function CountrySwitch({ enumeration }) {
     const defaultValue = enumeration.value || enumeration.universe[0];
     const [country, setCountry] = useState(defaultValue);
+
+    useEffect(() => {
+        if (enumeration.status = "available" && enumeration.value) {
+            setCountry(enumeration.value);
+        }
+    });
 
     function changeSelection(event) {
         const newCountry = event.target.value;

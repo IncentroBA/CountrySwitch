@@ -5,7 +5,7 @@
         xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
     <name>Country Switch</name>
     <description>Simple dropdown to select a country and display the flag</description>
-    <icon/>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAAEEfUpiAAAACXBIWXMAAAsSAAALEgHS3X78AAABhklEQVRYhe1X7VGDQBB9cSwAO9AOLEE7SDpICdgBVoAdaAfRChIrIB2YDrADnGX2btblvnKA5gdvZieEW/beftwjAYACWagBtAA6+rKXK1cAPvWNAei5B/78MjE6ZeSwM5sQKh8d5x5nOUDuE4ogSdYiiy4WoRtPMjkLU71SEbYOSRGijgqF4bhSwUqmIxvqsrWm6W14iH1SlUIYHcBS4en25UtrW67LWvnaADk1mCYFcyYzNWLkIOkALmu4cK5Z71WpEjd2YgqrSFDLusqgb5n//yQuAX4HCA1TLeajFm0/QA2MnLqYpNHxxrVgsMIQh8tvIzzv6H3Cc5PBV+SSibSOtZYbRD63CUQKblqjkizMYhMZo9mMevgN4EMxfgNwx5MVshsAG/Y/OTKne+8AnlS8AeRZyHo7nQlb0clezLlYCCwEfASMcLx6lFKKCYnRfeJ+W/MXSSP0G2Yu65XQVQESpudEITJGYvQC4OjJ/MhitRHPPPJePf5aiCwuZghtKdT1vADwA4of6jVqmCpgAAAAAElFTkSuQmCC</icon>
     <properties>
         <propertyGroup caption="General">
             <property key="enumeration" type="attribute" onChange="onEnumChange">

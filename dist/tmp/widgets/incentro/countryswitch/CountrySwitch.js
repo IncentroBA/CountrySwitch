@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "1dc6295efb86dd53fbbf";
+/******/ 	var hotCurrentHash = "c39531a08daed71786fe";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -8367,6 +8367,12 @@ function CountrySwitch(_ref) {
       country = _useState2[0],
       setCountry = _useState2[1];
 
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    if (enumeration.status =  true && enumeration.value) {
+      setCountry(enumeration.value);
+    }
+  });
+
   function changeSelection(event) {
     var newCountry = event.target.value;
     saveCountry(newCountry);
@@ -8412,7 +8418,6 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToAr
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-// import "../ui/flagpack.css";
 
 
 var HelloWorldSample = function HelloWorldSample(_ref) {

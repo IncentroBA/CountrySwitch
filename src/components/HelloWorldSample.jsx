@@ -1,4 +1,3 @@
-// import "../ui/flagpack.css";
 import "flagpack/dist/flagpack.css";
 import { createElement } from "react";
 
