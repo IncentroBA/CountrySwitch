@@ -19,7 +19,7 @@ export const HelloWorldSample = ({ selectedCountry, countries, onChange }) => {
                     const flagpack = `fp ${country.toLowerCase()}`;
 
                     return (
-                        <li className={country} key={countryId}>
+                        <li className={countryId} key={countryId}>
                             <input
                                 id={countryId}
                                 type="radio"

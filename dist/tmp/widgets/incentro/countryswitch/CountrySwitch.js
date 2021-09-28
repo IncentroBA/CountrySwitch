@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "c39531a08daed71786fe";
+/******/ 	var hotCurrentHash = "f07adbfc0738ae324bf6";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1931,7 +1931,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".countryswitch {\n  position: relative;\n}\n\n.countryswitch:hover .countryswitch__list {\n  opacity: 1;\n  pointer-events: all;\n}\n\n.countryswitch input {\n  display: none;\n}\n\n.countryswitch__list {\n  background-color: white;\n  bottom: 0;\n  list-style: none;\n  max-height: 250px;\n  opacity: 0;\n  overflow-y: auto;\n  padding: 0;\n  position: absolute;\n  pointer-events: none;\n  transform: translateY(calc(100% + 10px));\n  z-index: 1;\n}\n\n.countryswitch__list li {\n  align-items: center;\n  display: flex;\n}\n\n.countryswitch__list li:hover {\n  cursor: pointer;\n}\n\n.countryswitch__list li label {\n  padding: 4px 16px;\n}\n\n.countryswitch__list li span {\n  pointer-events: none;\n}\n\n.countryswitch .form-control svg {\n  height: 16px;\n  width: 16px;\n}", ""]);
+exports.push([module.i, ".countryswitch {\n  position: relative;\n}\n\n.countryswitch:hover .countryswitch__list {\n  opacity: 1;\n  pointer-events: all;\n}\n\n.countryswitch input {\n  display: none;\n}\n\n.countryswitch__list {\n  background-color: white;\n  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);\n  bottom: 0;\n  list-style: none;\n  max-height: 250px;\n  opacity: 0;\n  overflow-y: auto;\n  padding: 0;\n  position: absolute;\n  pointer-events: none;\n  transform: translateY(calc(100% + 10px));\n  z-index: 1;\n}\n\n.countryswitch__list li {\n  align-items: center;\n  display: flex;\n}\n\n.countryswitch__list .control-label:hover,\n.countryswitch__list li:hover {\n  cursor: pointer;\n}\n\n.countryswitch__list li label {\n  padding: 4px 16px;\n}\n\n.countryswitch__list li span {\n  pointer-events: none;\n}\n\n.countryswitch__list .control-label {\n  margin-bottom: 0;\n  margin-left: 0;\n}\n\n.countryswitch .form-control svg {\n  height: 16px;\n  width: 16px;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -8446,7 +8446,7 @@ var HelloWorldSample = function HelloWorldSample(_ref) {
     var countryId = "country_".concat(country);
     var flagpack = "fp ".concat(country.toLowerCase());
     return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("li", {
-      className: country,
+      className: countryId,
       key: countryId
     }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("input", {
       id: countryId,
