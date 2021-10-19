@@ -42,8 +42,6 @@ The list of countries is attached via enumeration value. You can set an onchange
     - the bundle will be included in a `dist` folder in the root directory of the project;
     - the bundle will be included in the `deployment` and `widgets` folder of the Mendix test project.
 
-[specify contribution]
-
 
 ## Bugs
 none known at this moment.
