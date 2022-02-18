@@ -1,26 +1,65 @@
 import "./ui/CountrySwitch.css";
+import "flagpack/dist/flagpack.css";
 import { createElement, useState, useEffect } from "react";
-import { HelloWorldSample } from "./components/HelloWorldSample";
 
-export default function CountrySwitch({ enumeration }) {
-    const defaultValue = enumeration.value || enumeration.universe[0];
-    const [country, setCountry] = useState(defaultValue);
+export const CountrySwitch = ({ enumeration, ...rest }) => {
+    const id = rest.id || "";
+    const style = rest.class || "";
+    const widgetName = rest.name || "";
+    const tIndex = rest.TabIndex || "";
+    const countryList = [...enumeration.universe];
+    const [selectedCountry, setselectedCountry] = useState(null);
 
     useEffect(() => {
-        if (enumeration.status = "available" && enumeration.value) {
-            setCountry(enumeration.value);
+        if ((enumeration.status = "available" && selectedCountry == null)) {
+            setselectedCountry(enumeration.value);
         }
-    });
+    }, [enumeration, selectedCountry]);
 
     function changeSelection(event) {
         const newCountry = event.target.value;
         saveCountry(newCountry);
-        setCountry(newCountry);
+        setselectedCountry(newCountry);
     }
 
     function saveCountry(newCountry) {
         enumeration.setValue(newCountry);
     }
 
-    return <HelloWorldSample selectedCountry={country} countries={enumeration} onChange={changeSelection} />;
-}
+    return (
+        <div id={id} className={`countryswitch mx-radiobuttons ${widgetName} ${style}`}>
+            <div className="form-control" tabIndex={tIndex}>
+                <span className={`fp ${selectedCountry && selectedCountry.toLowerCase()}`}></span>
+                <svg
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 16 16"
+                    className="countryswitch__chevron"
+                >
+                    <path d="M4,6l4,4l4-4H4z" />
+                </svg>
+            </div>
+            <ul className="countryswitch__list">
+                {countryList.map(country => {
+                    const countryId = `country_${country}`;
+                    const flagpack = `fp ${country.toLowerCase()}`;
+
+                    return (
+                        <li className={countryId} key={countryId}>
+                            <input
+                                id={countryId}
+                                type="radio"
+                                name="CountrySwitch"
+                                value={country}
+                                onChange={() => changeSelection(event)}
+                            ></input>
+                            <label className="control-label" htmlFor={countryId}>
+                                <span className={flagpack}></span>
+                            </label>
+                        </li>
+                    );
+                })}
+            </ul>
+        </div>
+    );
+};

@@ -19,6 +19,9 @@
                 <caption>On change</caption>
                 <description/>
             </property>
+            <systemProperty key="Label"/>
+            <systemProperty key="Editability"/>
+            <systemProperty key="TabIndex"/>
         </propertyGroup>
     </properties>
 </widget>

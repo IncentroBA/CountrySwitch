@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "f07adbfc0738ae324bf6";
+/******/ 	var hotCurrentHash = "30d620b2b33a4ea8509c";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -8332,80 +8332,28 @@ module.exports = function (css) {
 /*!*******************************!*\
   !*** ./src/CountrySwitch.jsx ***!
   \*******************************/
-/*! exports provided: default */
+/*! exports provided: CountrySwitch */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return CountrySwitch; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CountrySwitch", function() { return CountrySwitch; });
 /* harmony import */ var _ui_CountrySwitch_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ui/CountrySwitch.css */ "./src/ui/CountrySwitch.css");
 /* harmony import */ var _ui_CountrySwitch_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_ui_CountrySwitch_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_HelloWorldSample__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/HelloWorldSample */ "./src/components/HelloWorldSample.jsx");
+/* harmony import */ var flagpack_dist_flagpack_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! flagpack/dist/flagpack.css */ "./node_modules/flagpack/dist/flagpack.css");
+/* harmony import */ var flagpack_dist_flagpack_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(flagpack_dist_flagpack_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+var _excluded = ["enumeration"];
+
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
 function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-
-
-
-function CountrySwitch(_ref) {
-  var enumeration = _ref.enumeration;
-  var defaultValue = enumeration.value || enumeration.universe[0];
-
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(defaultValue),
-      _useState2 = _slicedToArray(_useState, 2),
-      country = _useState2[0],
-      setCountry = _useState2[1];
-
-  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
-    if (enumeration.status =  true && enumeration.value) {
-      setCountry(enumeration.value);
-    }
-  });
-
-  function changeSelection(event) {
-    var newCountry = event.target.value;
-    saveCountry(newCountry);
-    setCountry(newCountry);
-  }
-
-  function saveCountry(newCountry) {
-    enumeration.setValue(newCountry);
-  }
-
-  return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])(_components_HelloWorldSample__WEBPACK_IMPORTED_MODULE_2__["HelloWorldSample"], {
-    selectedCountry: country,
-    countries: enumeration,
-    onChange: changeSelection
-  });
-}
-
-/***/ }),
-
-/***/ "./src/components/HelloWorldSample.jsx":
-/*!*********************************************!*\
-  !*** ./src/components/HelloWorldSample.jsx ***!
-  \*********************************************/
-/*! exports provided: HelloWorldSample */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HelloWorldSample", function() { return HelloWorldSample; });
-/* harmony import */ var flagpack_dist_flagpack_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! flagpack/dist/flagpack.css */ "./node_modules/flagpack/dist/flagpack.css");
-/* harmony import */ var flagpack_dist_flagpack_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(flagpack_dist_flagpack_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -8418,48 +8366,80 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToAr
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
 
-var HelloWorldSample = function HelloWorldSample(_ref) {
-  var selectedCountry = _ref.selectedCountry,
-      countries = _ref.countries,
-      _onChange = _ref.onChange;
 
-  var countryList = _toConsumableArray(countries.universe);
 
-  var selectedFlag = "fp ".concat(selectedCountry.toLowerCase());
-  return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", {
-    className: "countryswitch form-group mx-radiobuttons"
-  }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("div", {
-    className: "form-control"
-  }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("span", {
-    className: selectedFlag
-  }), /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("svg", {
+var CountrySwitch = function CountrySwitch(_ref) {
+  var enumeration = _ref.enumeration,
+      rest = _objectWithoutProperties(_ref, _excluded);
+
+  var id = rest.id || "";
+  var style = rest["class"] || "";
+  var widgetName = rest.name || "";
+  var tIndex = rest.TabIndex || "";
+
+  var countryList = _toConsumableArray(enumeration.universe);
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(null),
+      _useState2 = _slicedToArray(_useState, 2),
+      selectedCountry = _useState2[0],
+      setselectedCountry = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
+    if (enumeration.status =  true && selectedCountry == null) {
+      setselectedCountry(enumeration.value);
+    }
+  }, [enumeration, selectedCountry]);
+
+  function changeSelection(event) {
+    var newCountry = event.target.value;
+    saveCountry(newCountry);
+    setselectedCountry(newCountry);
+  }
+
+  function saveCountry(newCountry) {
+    enumeration.setValue(newCountry);
+  }
+
+  return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", {
+    id: id,
+    className: "countryswitch mx-radiobuttons ".concat(widgetName, " ").concat(style)
+  }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", {
+    className: "form-control",
+    tabIndex: tIndex
+  }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("span", {
+    className: "fp ".concat(selectedCountry && selectedCountry.toLowerCase())
+  }), /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("svg", {
     version: "1.1",
     xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 16 16"
-  }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("path", {
+    viewBox: "0 0 16 16",
+    className: "countryswitch__chevron"
+  }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("path", {
     d: "M4,6l4,4l4-4H4z"
-  }))), /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("ul", {
+  }))), /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("ul", {
     className: "countryswitch__list"
   }, countryList.map(function (country) {
     var countryId = "country_".concat(country);
     var flagpack = "fp ".concat(country.toLowerCase());
-    return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("li", {
+    return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("li", {
       className: countryId,
       key: countryId
-    }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("input", {
+    }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("input", {
       id: countryId,
       type: "radio",
       name: "CountrySwitch",
       value: country,
       onChange: function onChange() {
-        return _onChange(event);
+        return changeSelection(event);
       }
-    }), /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("label", {
+    }), /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("label", {
       className: "control-label",
       htmlFor: countryId
-    }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["createElement"])("span", {
+    }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("span", {
       className: flagpack
     })));
   })));
