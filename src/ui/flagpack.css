@@ -1,0 +1,2117 @@
+.fp {
+  position: relative;
+  display: inline-block;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.fp:before {
+  content: "\00a0"
+}
+
+.fp {
+  line-height: 1em;
+  width: 1.33333em
+}
+
+.fp.fp-square {
+  line-height: 1em;
+  width: 1em
+}
+
+.fp.fp-rounded {
+  border-radius: .16667em
+}
+
+.fp.fp-md {
+  line-height: 1.5em;
+  width: 2em
+}
+
+.fp.fp-md.fp-square {
+  line-height: 1.5em;
+  width: 1.5em
+}
+
+.fp.fp-md.fp-rounded {
+  border-radius: .25em
+}
+
+.fp.fp-lg {
+  line-height: 2em;
+  width: 2.66667em
+}
+
+.fp.fp-lg.fp-square {
+  line-height: 2em;
+  width: 2em
+}
+
+.fp.fp-lg.fp-rounded {
+  border-radius: .25em
+}
+
+.fp.ac {
+  background-image: url("../flags/4x3/ac.svg")
+}
+
+.fp.ac.fp-square {
+  background-image: url("../flags/1x1/ac.svg")
+}
+
+.fp.ad {
+  background-image: url("../flags/4x3/ad.svg")
+}
+
+.fp.ad.fp-square {
+  background-image: url("../flags/1x1/ad.svg")
+}
+
+.fp.ae {
+  background-image: url("../flags/4x3/ae.svg")
+}
+
+.fp.ae.fp-square {
+  background-image: url("../flags/1x1/ae.svg")
+}
+
+.fp.af {
+  background-image: url("../flags/4x3/af.svg")
+}
+
+.fp.af.fp-square {
+  background-image: url("../flags/1x1/af.svg")
+}
+
+.fp.ag {
+  background-image: url("../flags/4x3/ag.svg")
+}
+
+.fp.ag.fp-square {
+  background-image: url("../flags/1x1/ag.svg")
+}
+
+.fp.ai {
+  background-image: url("../flags/4x3/ai.svg")
+}
+
+.fp.ai.fp-square {
+  background-image: url("../flags/1x1/ai.svg")
+}
+
+.fp.al {
+  background-image: url("../flags/4x3/al.svg")
+}
+
+.fp.al.fp-square {
+  background-image: url("../flags/1x1/al.svg")
+}
+
+.fp.am {
+  background-image: url("../flags/4x3/am.svg")
+}
+
+.fp.am.fp-square {
+  background-image: url("../flags/1x1/am.svg")
+}
+
+.fp.ao {
+  background-image: url("../flags/4x3/ao.svg")
+}
+
+.fp.ao.fp-square {
+  background-image: url("../flags/1x1/ao.svg")
+}
+
+.fp.ar {
+  background-image: url("../flags/4x3/ar.svg")
+}
+
+.fp.ar.fp-square {
+  background-image: url("../flags/1x1/ar.svg")
+}
+
+.fp.as {
+  background-image: url("../flags/4x3/as.svg")
+}
+
+.fp.as.fp-square {
+  background-image: url("../flags/1x1/as.svg")
+}
+
+.fp.at {
+  background-image: url("../flags/4x3/at.svg")
+}
+
+.fp.at.fp-square {
+  background-image: url("../flags/1x1/at.svg")
+}
+
+.fp.au {
+  background-image: url("../flags/4x3/au.svg")
+}
+
+.fp.au.fp-square {
+  background-image: url("../flags/1x1/au.svg")
+}
+
+.fp.aw {
+  background-image: url("../flags/4x3/aw.svg")
+}
+
+.fp.aw.fp-square {
+  background-image: url("../flags/1x1/aw.svg")
+}
+
+.fp.ax {
+  background-image: url("../flags/4x3/ax.svg")
+}
+
+.fp.ax.fp-square {
+  background-image: url("../flags/1x1/ax.svg")
+}
+
+.fp.az {
+  background-image: url("../flags/4x3/az.svg")
+}
+
+.fp.az.fp-square {
+  background-image: url("../flags/1x1/az.svg")
+}
+
+.fp.ba {
+  background-image: url("../flags/4x3/ba.svg")
+}
+
+.fp.ba.fp-square {
+  background-image: url("../flags/1x1/ba.svg")
+}
+
+.fp.bb {
+  background-image: url("../flags/4x3/bb.svg")
+}
+
+.fp.bb.fp-square {
+  background-image: url("../flags/1x1/bb.svg")
+}
+
+.fp.bd {
+  background-image: url("../flags/4x3/bd.svg")
+}
+
+.fp.bd.fp-square {
+  background-image: url("../flags/1x1/bd.svg")
+}
+
+.fp.be {
+  background-image: url("../flags/4x3/be.svg")
+}
+
+.fp.be.fp-square {
+  background-image: url("../flags/1x1/be.svg")
+}
+
+.fp.bf {
+  background-image: url("../flags/4x3/bf.svg")
+}
+
+.fp.bf.fp-square {
+  background-image: url("../flags/1x1/bf.svg")
+}
+
+.fp.bg {
+  background-image: url("../flags/4x3/bg.svg")
+}
+
+.fp.bg.fp-square {
+  background-image: url("../flags/1x1/bg.svg")
+}
+
+.fp.bh {
+  background-image: url("../flags/4x3/bh.svg")
+}
+
+.fp.bh.fp-square {
+  background-image: url("../flags/1x1/bh.svg")
+}
+
+.fp.bi {
+  background-image: url("../flags/4x3/bi.svg")
+}
+
+.fp.bi.fp-square {
+  background-image: url("../flags/1x1/bi.svg")
+}
+
+.fp.bj {
+  background-image: url("../flags/4x3/bj.svg")
+}
+
+.fp.bj.fp-square {
+  background-image: url("../flags/1x1/bj.svg")
+}
+
+.fp.bl {
+  background-image: url("../flags/4x3/bl.svg")
+}
+
+.fp.bl.fp-square {
+  background-image: url("../flags/1x1/bl.svg")
+}
+
+.fp.bm {
+  background-image: url("../flags/4x3/bm.svg")
+}
+
+.fp.bm.fp-square {
+  background-image: url("../flags/1x1/bm.svg")
+}
+
+.fp.bn {
+  background-image: url("../flags/4x3/bn.svg")
+}
+
+.fp.bn.fp-square {
+  background-image: url("../flags/1x1/bn.svg")
+}
+
+.fp.bo {
+  background-image: url("../flags/4x3/bo.svg")
+}
+
+.fp.bo.fp-square {
+  background-image: url("../flags/1x1/bo.svg")
+}
+
+.fp.bq {
+  background-image: url("../flags/4x3/bq.svg")
+}
+
+.fp.bq.fp-square {
+  background-image: url("../flags/1x1/bq.svg")
+}
+
+.fp.br {
+  background-image: url("../flags/4x3/br.svg")
+}
+
+.fp.br.fp-square {
+  background-image: url("../flags/1x1/br.svg")
+}
+
+.fp.bs {
+  background-image: url("../flags/4x3/bs.svg")
+}
+
+.fp.bs.fp-square {
+  background-image: url("../flags/1x1/bs.svg")
+}
+
+.fp.bt {
+  background-image: url("../flags/4x3/bt.svg")
+}
+
+.fp.bt.fp-square {
+  background-image: url("../flags/1x1/bt.svg")
+}
+
+.fp.bv {
+  background-image: url("../flags/4x3/bv.svg")
+}
+
+.fp.bv.fp-square {
+  background-image: url("../flags/1x1/bv.svg")
+}
+
+.fp.bw {
+  background-image: url("../flags/4x3/bw.svg")
+}
+
+.fp.bw.fp-square {
+  background-image: url("../flags/1x1/bw.svg")
+}
+
+.fp.by {
+  background-image: url("../flags/4x3/by.svg")
+}
+
+.fp.by.fp-square {
+  background-image: url("../flags/1x1/by.svg")
+}
+
+.fp.bz {
+  background-image: url("../flags/4x3/bz.svg")
+}
+
+.fp.bz.fp-square {
+  background-image: url("../flags/1x1/bz.svg")
+}
+
+.fp.ca {
+  background-image: url("../flags/4x3/ca.svg")
+}
+
+.fp.ca.fp-square {
+  background-image: url("../flags/1x1/ca.svg")
+}
+
+.fp.cc {
+  background-image: url("../flags/4x3/cc.svg")
+}
+
+.fp.cc.fp-square {
+  background-image: url("../flags/1x1/cc.svg")
+}
+
+.fp.cd {
+  background-image: url("../flags/4x3/cd.svg")
+}
+
+.fp.cd.fp-square {
+  background-image: url("../flags/1x1/cd.svg")
+}
+
+.fp.cf {
+  background-image: url("../flags/4x3/cf.svg")
+}
+
+.fp.cf.fp-square {
+  background-image: url("../flags/1x1/cf.svg")
+}
+
+.fp.cg {
+  background-image: url("../flags/4x3/cg.svg")
+}
+
+.fp.cg.fp-square {
+  background-image: url("../flags/1x1/cg.svg")
+}
+
+.fp.ch {
+  background-image: url("../flags/4x3/ch.svg")
+}
+
+.fp.ch.fp-square {
+  background-image: url("../flags/1x1/ch.svg")
+}
+
+.fp.ci {
+  background-image: url("../flags/4x3/ci.svg")
+}
+
+.fp.ci.fp-square {
+  background-image: url("../flags/1x1/ci.svg")
+}
+
+.fp.ck {
+  background-image: url("../flags/4x3/ck.svg")
+}
+
+.fp.ck.fp-square {
+  background-image: url("../flags/1x1/ck.svg")
+}
+
+.fp.cl {
+  background-image: url("../flags/4x3/cl.svg")
+}
+
+.fp.cl.fp-square {
+  background-image: url("../flags/1x1/cl.svg")
+}
+
+.fp.cm {
+  background-image: url("../flags/4x3/cm.svg")
+}
+
+.fp.cm.fp-square {
+  background-image: url("../flags/1x1/cm.svg")
+}
+
+.fp.cn {
+  background-image: url("../flags/4x3/cn.svg")
+}
+
+.fp.cn.fp-square {
+  background-image: url("../flags/1x1/cn.svg")
+}
+
+.fp.co {
+  background-image: url("../flags/4x3/co.svg")
+}
+
+.fp.co.fp-square {
+  background-image: url("../flags/1x1/co.svg")
+}
+
+.fp.cr {
+  background-image: url("../flags/4x3/cr.svg")
+}
+
+.fp.cr.fp-square {
+  background-image: url("../flags/1x1/cr.svg")
+}
+
+.fp.cu {
+  background-image: url("../flags/4x3/cu.svg")
+}
+
+.fp.cu.fp-square {
+  background-image: url("../flags/1x1/cu.svg")
+}
+
+.fp.cv {
+  background-image: url("../flags/4x3/cv.svg")
+}
+
+.fp.cv.fp-square {
+  background-image: url("../flags/1x1/cv.svg")
+}
+
+.fp.cw {
+  background-image: url("../flags/4x3/cw.svg")
+}
+
+.fp.cw.fp-square {
+  background-image: url("../flags/1x1/cw.svg")
+}
+
+.fp.cx {
+  background-image: url("../flags/4x3/cx.svg")
+}
+
+.fp.cx.fp-square {
+  background-image: url("../flags/1x1/cx.svg")
+}
+
+.fp.cy {
+  background-image: url("../flags/4x3/cy.svg")
+}
+
+.fp.cy.fp-square {
+  background-image: url("../flags/1x1/cy.svg")
+}
+
+.fp.cz {
+  background-image: url("../flags/4x3/cz.svg")
+}
+
+.fp.cz.fp-square {
+  background-image: url("../flags/1x1/cz.svg")
+}
+
+.fp.de {
+  background-image: url("../flags/4x3/de.svg")
+}
+
+.fp.de.fp-square {
+  background-image: url("../flags/1x1/de.svg")
+}
+
+.fp.dj {
+  background-image: url("../flags/4x3/dj.svg")
+}
+
+.fp.dj.fp-square {
+  background-image: url("../flags/1x1/dj.svg")
+}
+
+.fp.dk {
+  background-image: url("../flags/4x3/dk.svg")
+}
+
+.fp.dk.fp-square {
+  background-image: url("../flags/1x1/dk.svg")
+}
+
+.fp.dm {
+  background-image: url("../flags/4x3/dm.svg")
+}
+
+.fp.dm.fp-square {
+  background-image: url("../flags/1x1/dm.svg")
+}
+
+.fp.do {
+  background-image: url("../flags/4x3/do.svg")
+}
+
+.fp.do.fp-square {
+  background-image: url("../flags/1x1/do.svg")
+}
+
+.fp.dz {
+  background-image: url("../flags/4x3/dz.svg")
+}
+
+.fp.dz.fp-square {
+  background-image: url("../flags/1x1/dz.svg")
+}
+
+.fp.ec {
+  background-image: url("../flags/4x3/ec.svg")
+}
+
+.fp.ec.fp-square {
+  background-image: url("../flags/1x1/ec.svg")
+}
+
+.fp.ee {
+  background-image: url("../flags/4x3/ee.svg")
+}
+
+.fp.ee.fp-square {
+  background-image: url("../flags/1x1/ee.svg")
+}
+
+.fp.eg {
+  background-image: url("../flags/4x3/eg.svg")
+}
+
+.fp.eg.fp-square {
+  background-image: url("../flags/1x1/eg.svg")
+}
+
+.fp.eh {
+  background-image: url("../flags/4x3/eh.svg")
+}
+
+.fp.eh.fp-square {
+  background-image: url("../flags/1x1/eh.svg")
+}
+
+.fp.er {
+  background-image: url("../flags/4x3/er.svg")
+}
+
+.fp.er.fp-square {
+  background-image: url("../flags/1x1/er.svg")
+}
+
+.fp.es {
+  background-image: url("../flags/4x3/es.svg")
+}
+
+.fp.es.fp-square {
+  background-image: url("../flags/1x1/es.svg")
+}
+
+.fp.et {
+  background-image: url("../flags/4x3/et.svg")
+}
+
+.fp.et.fp-square {
+  background-image: url("../flags/1x1/et.svg")
+}
+
+.fp.eu {
+  background-image: url("../flags/4x3/eu.svg")
+}
+
+.fp.eu.fp-square {
+  background-image: url("../flags/1x1/eu.svg")
+}
+
+.fp.fi {
+  background-image: url("../flags/4x3/fi.svg")
+}
+
+.fp.fi.fp-square {
+  background-image: url("../flags/1x1/fi.svg")
+}
+
+.fp.fj {
+  background-image: url("../flags/4x3/fj.svg")
+}
+
+.fp.fj.fp-square {
+  background-image: url("../flags/1x1/fj.svg")
+}
+
+.fp.fk {
+  background-image: url("../flags/4x3/fk.svg")
+}
+
+.fp.fk.fp-square {
+  background-image: url("../flags/1x1/fk.svg")
+}
+
+.fp.fm {
+  background-image: url("../flags/4x3/fm.svg")
+}
+
+.fp.fm.fp-square {
+  background-image: url("../flags/1x1/fm.svg")
+}
+
+.fp.fo {
+  background-image: url("../flags/4x3/fo.svg")
+}
+
+.fp.fo.fp-square {
+  background-image: url("../flags/1x1/fo.svg")
+}
+
+.fp.fr {
+  background-image: url("../flags/4x3/fr.svg")
+}
+
+.fp.fr.fp-square {
+  background-image: url("../flags/1x1/fr.svg")
+}
+
+.fp.ga {
+  background-image: url("../flags/4x3/ga.svg")
+}
+
+.fp.ga.fp-square {
+  background-image: url("../flags/1x1/ga.svg")
+}
+
+.fp.gb-eng {
+  background-image: url("../flags/4x3/gb-eng.svg")
+}
+
+.fp.gb-eng.fp-square {
+  background-image: url("../flags/1x1/gb-eng.svg")
+}
+
+.fp.gb-nir {
+  background-image: url("../flags/4x3/gb-nir.svg")
+}
+
+.fp.gb-nir.fp-square {
+  background-image: url("../flags/1x1/gb-nir.svg")
+}
+
+.fp.gb-sct {
+  background-image: url("../flags/4x3/gb-sct.svg")
+}
+
+.fp.gb-sct.fp-square {
+  background-image: url("../flags/1x1/gb-sct.svg")
+}
+
+.fp.gb-wls {
+  background-image: url("../flags/4x3/gb-wls.svg")
+}
+
+.fp.gb-wls.fp-square {
+  background-image: url("../flags/1x1/gb-wls.svg")
+}
+
+.fp.gb-zet {
+  background-image: url("../flags/4x3/gb-zet.svg")
+}
+
+.fp.gb-zet.fp-square {
+  background-image: url("../flags/1x1/gb-zet.svg")
+}
+
+.fp.gb {
+  background-image: url("../flags/4x3/gb.svg")
+}
+
+.fp.gb.fp-square {
+  background-image: url("../flags/1x1/gb.svg")
+}
+
+.fp.gd {
+  background-image: url("../flags/4x3/gd.svg")
+}
+
+.fp.gd.fp-square {
+  background-image: url("../flags/1x1/gd.svg")
+}
+
+.fp.ge {
+  background-image: url("../flags/4x3/ge.svg")
+}
+
+.fp.ge.fp-square {
+  background-image: url("../flags/1x1/ge.svg")
+}
+
+.fp.gf {
+  background-image: url("../flags/4x3/gf.svg")
+}
+
+.fp.gf.fp-square {
+  background-image: url("../flags/1x1/gf.svg")
+}
+
+.fp.gg {
+  background-image: url("../flags/4x3/gg.svg")
+}
+
+.fp.gg.fp-square {
+  background-image: url("../flags/1x1/gg.svg")
+}
+
+.fp.gh {
+  background-image: url("../flags/4x3/gh.svg")
+}
+
+.fp.gh.fp-square {
+  background-image: url("../flags/1x1/gh.svg")
+}
+
+.fp.gi {
+  background-image: url("../flags/4x3/gi.svg")
+}
+
+.fp.gi.fp-square {
+  background-image: url("../flags/1x1/gi.svg")
+}
+
+.fp.gl {
+  background-image: url("../flags/4x3/gl.svg")
+}
+
+.fp.gl.fp-square {
+  background-image: url("../flags/1x1/gl.svg")
+}
+
+.fp.gm {
+  background-image: url("../flags/4x3/gm.svg")
+}
+
+.fp.gm.fp-square {
+  background-image: url("../flags/1x1/gm.svg")
+}
+
+.fp.gn {
+  background-image: url("../flags/4x3/gn.svg")
+}
+
+.fp.gn.fp-square {
+  background-image: url("../flags/1x1/gn.svg")
+}
+
+.fp.gp {
+  background-image: url("../flags/4x3/gp.svg")
+}
+
+.fp.gp.fp-square {
+  background-image: url("../flags/1x1/gp.svg")
+}
+
+.fp.gq {
+  background-image: url("../flags/4x3/gq.svg")
+}
+
+.fp.gq.fp-square {
+  background-image: url("../flags/1x1/gq.svg")
+}
+
+.fp.gr {
+  background-image: url("../flags/4x3/gr.svg")
+}
+
+.fp.gr.fp-square {
+  background-image: url("../flags/1x1/gr.svg")
+}
+
+.fp.gs {
+  background-image: url("../flags/4x3/gs.svg")
+}
+
+.fp.gs.fp-square {
+  background-image: url("../flags/1x1/gs.svg")
+}
+
+.fp.gt {
+  background-image: url("../flags/4x3/gt.svg")
+}
+
+.fp.gt.fp-square {
+  background-image: url("../flags/1x1/gt.svg")
+}
+
+.fp.gu {
+  background-image: url("../flags/4x3/gu.svg")
+}
+
+.fp.gu.fp-square {
+  background-image: url("../flags/1x1/gu.svg")
+}
+
+.fp.gw {
+  background-image: url("../flags/4x3/gw.svg")
+}
+
+.fp.gw.fp-square {
+  background-image: url("../flags/1x1/gw.svg")
+}
+
+.fp.gy {
+  background-image: url("../flags/4x3/gy.svg")
+}
+
+.fp.gy.fp-square {
+  background-image: url("../flags/1x1/gy.svg")
+}
+
+.fp.hk {
+  background-image: url("../flags/4x3/hk.svg")
+}
+
+.fp.hk.fp-square {
+  background-image: url("../flags/1x1/hk.svg")
+}
+
+.fp.hm {
+  background-image: url("../flags/4x3/hm.svg")
+}
+
+.fp.hm.fp-square {
+  background-image: url("../flags/1x1/hm.svg")
+}
+
+.fp.hn {
+  background-image: url("../flags/4x3/hn.svg")
+}
+
+.fp.hn.fp-square {
+  background-image: url("../flags/1x1/hn.svg")
+}
+
+.fp.hr {
+  background-image: url("../flags/4x3/hr.svg")
+}
+
+.fp.hr.fp-square {
+  background-image: url("../flags/1x1/hr.svg")
+}
+
+.fp.ht {
+  background-image: url("../flags/4x3/ht.svg")
+}
+
+.fp.ht.fp-square {
+  background-image: url("../flags/1x1/ht.svg")
+}
+
+.fp.hu {
+  background-image: url("../flags/4x3/hu.svg")
+}
+
+.fp.hu.fp-square {
+  background-image: url("../flags/1x1/hu.svg")
+}
+
+.fp.id {
+  background-image: url("../flags/4x3/id.svg")
+}
+
+.fp.id.fp-square {
+  background-image: url("../flags/1x1/id.svg")
+}
+
+.fp.ie {
+  background-image: url("../flags/4x3/ie.svg")
+}
+
+.fp.ie.fp-square {
+  background-image: url("../flags/1x1/ie.svg")
+}
+
+.fp.il {
+  background-image: url("../flags/4x3/il.svg")
+}
+
+.fp.il.fp-square {
+  background-image: url("../flags/1x1/il.svg")
+}
+
+.fp.im {
+  background-image: url("../flags/4x3/im.svg")
+}
+
+.fp.im.fp-square {
+  background-image: url("../flags/1x1/im.svg")
+}
+
+.fp.in {
+  background-image: url("../flags/4x3/in.svg")
+}
+
+.fp.in.fp-square {
+  background-image: url("../flags/1x1/in.svg")
+}
+
+.fp.io {
+  background-image: url("../flags/4x3/io.svg")
+}
+
+.fp.io.fp-square {
+  background-image: url("../flags/1x1/io.svg")
+}
+
+.fp.iq {
+  background-image: url("../flags/4x3/iq.svg")
+}
+
+.fp.iq.fp-square {
+  background-image: url("../flags/1x1/iq.svg")
+}
+
+.fp.ir {
+  background-image: url("../flags/4x3/ir.svg")
+}
+
+.fp.ir.fp-square {
+  background-image: url("../flags/1x1/ir.svg")
+}
+
+.fp.is {
+  background-image: url("../flags/4x3/is.svg")
+}
+
+.fp.is.fp-square {
+  background-image: url("../flags/1x1/is.svg")
+}
+
+.fp.it {
+  background-image: url("../flags/4x3/it.svg")
+}
+
+.fp.it.fp-square {
+  background-image: url("../flags/1x1/it.svg")
+}
+
+.fp.je {
+  background-image: url("../flags/4x3/je.svg")
+}
+
+.fp.je.fp-square {
+  background-image: url("../flags/1x1/je.svg")
+}
+
+.fp.jm {
+  background-image: url("../flags/4x3/jm.svg")
+}
+
+.fp.jm.fp-square {
+  background-image: url("../flags/1x1/jm.svg")
+}
+
+.fp.jo {
+  background-image: url("../flags/4x3/jo.svg")
+}
+
+.fp.jo.fp-square {
+  background-image: url("../flags/1x1/jo.svg")
+}
+
+.fp.jp {
+  background-image: url("../flags/4x3/jp.svg")
+}
+
+.fp.jp.fp-square {
+  background-image: url("../flags/1x1/jp.svg")
+}
+
+.fp.ke {
+  background-image: url("../flags/4x3/ke.svg")
+}
+
+.fp.ke.fp-square {
+  background-image: url("../flags/1x1/ke.svg")
+}
+
+.fp.kg {
+  background-image: url("../flags/4x3/kg.svg")
+}
+
+.fp.kg.fp-square {
+  background-image: url("../flags/1x1/kg.svg")
+}
+
+.fp.kh {
+  background-image: url("../flags/4x3/kh.svg")
+}
+
+.fp.kh.fp-square {
+  background-image: url("../flags/1x1/kh.svg")
+}
+
+.fp.ki {
+  background-image: url("../flags/4x3/ki.svg")
+}
+
+.fp.ki.fp-square {
+  background-image: url("../flags/1x1/ki.svg")
+}
+
+.fp.km {
+  background-image: url("../flags/4x3/km.svg")
+}
+
+.fp.km.fp-square {
+  background-image: url("../flags/1x1/km.svg")
+}
+
+.fp.kn {
+  background-image: url("../flags/4x3/kn.svg")
+}
+
+.fp.kn.fp-square {
+  background-image: url("../flags/1x1/kn.svg")
+}
+
+.fp.kp {
+  background-image: url("../flags/4x3/kp.svg")
+}
+
+.fp.kp.fp-square {
+  background-image: url("../flags/1x1/kp.svg")
+}
+
+.fp.kr {
+  background-image: url("../flags/4x3/kr.svg")
+}
+
+.fp.kr.fp-square {
+  background-image: url("../flags/1x1/kr.svg")
+}
+
+.fp.kw {
+  background-image: url("../flags/4x3/kw.svg")
+}
+
+.fp.kw.fp-square {
+  background-image: url("../flags/1x1/kw.svg")
+}
+
+.fp.ky {
+  background-image: url("../flags/4x3/ky.svg")
+}
+
+.fp.ky.fp-square {
+  background-image: url("../flags/1x1/ky.svg")
+}
+
+.fp.kz {
+  background-image: url("../flags/4x3/kz.svg")
+}
+
+.fp.kz.fp-square {
+  background-image: url("../flags/1x1/kz.svg")
+}
+
+.fp.la {
+  background-image: url("../flags/4x3/la.svg")
+}
+
+.fp.la.fp-square {
+  background-image: url("../flags/1x1/la.svg")
+}
+
+.fp.lb {
+  background-image: url("../flags/4x3/lb.svg")
+}
+
+.fp.lb.fp-square {
+  background-image: url("../flags/1x1/lb.svg")
+}
+
+.fp.lc {
+  background-image: url("../flags/4x3/lc.svg")
+}
+
+.fp.lc.fp-square {
+  background-image: url("../flags/1x1/lc.svg")
+}
+
+.fp.lgbt {
+  background-image: url("../flags/4x3/lgbt.svg")
+}
+
+.fp.lgbt.fp-square {
+  background-image: url("../flags/1x1/lgbt.svg")
+}
+
+.fp.li {
+  background-image: url("../flags/4x3/li.svg")
+}
+
+.fp.li.fp-square {
+  background-image: url("../flags/1x1/li.svg")
+}
+
+.fp.lk {
+  background-image: url("../flags/4x3/lk.svg")
+}
+
+.fp.lk.fp-square {
+  background-image: url("../flags/1x1/lk.svg")
+}
+
+.fp.lr {
+  background-image: url("../flags/4x3/lr.svg")
+}
+
+.fp.lr.fp-square {
+  background-image: url("../flags/1x1/lr.svg")
+}
+
+.fp.ls {
+  background-image: url("../flags/4x3/ls.svg")
+}
+
+.fp.ls.fp-square {
+  background-image: url("../flags/1x1/ls.svg")
+}
+
+.fp.lt {
+  background-image: url("../flags/4x3/lt.svg")
+}
+
+.fp.lt.fp-square {
+  background-image: url("../flags/1x1/lt.svg")
+}
+
+.fp.lu {
+  background-image: url("../flags/4x3/lu.svg")
+}
+
+.fp.lu.fp-square {
+  background-image: url("../flags/1x1/lu.svg")
+}
+
+.fp.lv {
+  background-image: url("../flags/4x3/lv.svg")
+}
+
+.fp.lv.fp-square {
+  background-image: url("../flags/1x1/lv.svg")
+}
+
+.fp.ly {
+  background-image: url("../flags/4x3/ly.svg")
+}
+
+.fp.ly.fp-square {
+  background-image: url("../flags/1x1/ly.svg")
+}
+
+.fp.ma {
+  background-image: url("../flags/4x3/ma.svg")
+}
+
+.fp.ma.fp-square {
+  background-image: url("../flags/1x1/ma.svg")
+}
+
+.fp.mc {
+  background-image: url("../flags/4x3/mc.svg")
+}
+
+.fp.mc.fp-square {
+  background-image: url("../flags/1x1/mc.svg")
+}
+
+.fp.md {
+  background-image: url("../flags/4x3/md.svg")
+}
+
+.fp.md.fp-square {
+  background-image: url("../flags/1x1/md.svg")
+}
+
+.fp.me {
+  background-image: url("../flags/4x3/me.svg")
+}
+
+.fp.me.fp-square {
+  background-image: url("../flags/1x1/me.svg")
+}
+
+.fp.mf {
+  background-image: url("../flags/4x3/mf.svg")
+}
+
+.fp.mf.fp-square {
+  background-image: url("../flags/1x1/mf.svg")
+}
+
+.fp.mg {
+  background-image: url("../flags/4x3/mg.svg")
+}
+
+.fp.mg.fp-square {
+  background-image: url("../flags/1x1/mg.svg")
+}
+
+.fp.mh {
+  background-image: url("../flags/4x3/mh.svg")
+}
+
+.fp.mh.fp-square {
+  background-image: url("../flags/1x1/mh.svg")
+}
+
+.fp.mk {
+  background-image: url("../flags/4x3/mk.svg")
+}
+
+.fp.mk.fp-square {
+  background-image: url("../flags/1x1/mk.svg")
+}
+
+.fp.ml {
+  background-image: url("../flags/4x3/ml.svg")
+}
+
+.fp.ml.fp-square {
+  background-image: url("../flags/1x1/ml.svg")
+}
+
+.fp.mm {
+  background-image: url("../flags/4x3/mm.svg")
+}
+
+.fp.mm.fp-square {
+  background-image: url("../flags/1x1/mm.svg")
+}
+
+.fp.mn {
+  background-image: url("../flags/4x3/mn.svg")
+}
+
+.fp.mn.fp-square {
+  background-image: url("../flags/1x1/mn.svg")
+}
+
+.fp.mo {
+  background-image: url("../flags/4x3/mo.svg")
+}
+
+.fp.mo.fp-square {
+  background-image: url("../flags/1x1/mo.svg")
+}
+
+.fp.mp {
+  background-image: url("../flags/4x3/mp.svg")
+}
+
+.fp.mp.fp-square {
+  background-image: url("../flags/1x1/mp.svg")
+}
+
+.fp.mq {
+  background-image: url("../flags/4x3/mq.svg")
+}
+
+.fp.mq.fp-square {
+  background-image: url("../flags/1x1/mq.svg")
+}
+
+.fp.mr {
+  background-image: url("../flags/4x3/mr.svg")
+}
+
+.fp.mr.fp-square {
+  background-image: url("../flags/1x1/mr.svg")
+}
+
+.fp.ms {
+  background-image: url("../flags/4x3/ms.svg")
+}
+
+.fp.ms.fp-square {
+  background-image: url("../flags/1x1/ms.svg")
+}
+
+.fp.mt {
+  background-image: url("../flags/4x3/mt.svg")
+}
+
+.fp.mt.fp-square {
+  background-image: url("../flags/1x1/mt.svg")
+}
+
+.fp.mu {
+  background-image: url("../flags/4x3/mu.svg")
+}
+
+.fp.mu.fp-square {
+  background-image: url("../flags/1x1/mu.svg")
+}
+
+.fp.mv {
+  background-image: url("../flags/4x3/mv.svg")
+}
+
+.fp.mv.fp-square {
+  background-image: url("../flags/1x1/mv.svg")
+}
+
+.fp.mw {
+  background-image: url("../flags/4x3/mw.svg")
+}
+
+.fp.mw.fp-square {
+  background-image: url("../flags/1x1/mw.svg")
+}
+
+.fp.mx {
+  background-image: url("../flags/4x3/mx.svg")
+}
+
+.fp.mx.fp-square {
+  background-image: url("../flags/1x1/mx.svg")
+}
+
+.fp.my {
+  background-image: url("../flags/4x3/my.svg")
+}
+
+.fp.my.fp-square {
+  background-image: url("../flags/1x1/my.svg")
+}
+
+.fp.mz {
+  background-image: url("../flags/4x3/mz.svg")
+}
+
+.fp.mz.fp-square {
+  background-image: url("../flags/1x1/mz.svg")
+}
+
+.fp.na {
+  background-image: url("../flags/4x3/na.svg")
+}
+
+.fp.na.fp-square {
+  background-image: url("../flags/1x1/na.svg")
+}
+
+.fp.nc {
+  background-image: url("../flags/4x3/nc.svg")
+}
+
+.fp.nc.fp-square {
+  background-image: url("../flags/1x1/nc.svg")
+}
+
+.fp.ne {
+  background-image: url("../flags/4x3/ne.svg")
+}
+
+.fp.ne.fp-square {
+  background-image: url("../flags/1x1/ne.svg")
+}
+
+.fp.nf {
+  background-image: url("../flags/4x3/nf.svg")
+}
+
+.fp.nf.fp-square {
+  background-image: url("../flags/1x1/nf.svg")
+}
+
+.fp.ng {
+  background-image: url("../flags/4x3/ng.svg")
+}
+
+.fp.ng.fp-square {
+  background-image: url("../flags/1x1/ng.svg")
+}
+
+.fp.ni {
+  background-image: url("../flags/4x3/ni.svg")
+}
+
+.fp.ni.fp-square {
+  background-image: url("../flags/1x1/ni.svg")
+}
+
+.fp.nl {
+  background-image: url("../flags/4x3/nl.svg")
+}
+
+.fp.nl.fp-square {
+  background-image: url("../flags/1x1/nl.svg")
+}
+
+.fp.no {
+  background-image: url("../flags/4x3/no.svg")
+}
+
+.fp.no.fp-square {
+  background-image: url("../flags/1x1/no.svg")
+}
+
+.fp.np {
+  background-image: url("../flags/4x3/np.svg")
+}
+
+.fp.np.fp-square {
+  background-image: url("../flags/1x1/np.svg")
+}
+
+.fp.nr {
+  background-image: url("../flags/4x3/nr.svg")
+}
+
+.fp.nr.fp-square {
+  background-image: url("../flags/1x1/nr.svg")
+}
+
+.fp.nu {
+  background-image: url("../flags/4x3/nu.svg")
+}
+
+.fp.nu.fp-square {
+  background-image: url("../flags/1x1/nu.svg")
+}
+
+.fp.nz {
+  background-image: url("../flags/4x3/nz.svg")
+}
+
+.fp.nz.fp-square {
+  background-image: url("../flags/1x1/nz.svg")
+}
+
+.fp.om {
+  background-image: url("../flags/4x3/om.svg")
+}
+
+.fp.om.fp-square {
+  background-image: url("../flags/1x1/om.svg")
+}
+
+.fp.pa {
+  background-image: url("../flags/4x3/pa.svg")
+}
+
+.fp.pa.fp-square {
+  background-image: url("../flags/1x1/pa.svg")
+}
+
+.fp.pe {
+  background-image: url("../flags/4x3/pe.svg")
+}
+
+.fp.pe.fp-square {
+  background-image: url("../flags/1x1/pe.svg")
+}
+
+.fp.pf {
+  background-image: url("../flags/4x3/pf.svg")
+}
+
+.fp.pf.fp-square {
+  background-image: url("../flags/1x1/pf.svg")
+}
+
+.fp.pg {
+  background-image: url("../flags/4x3/pg.svg")
+}
+
+.fp.pg.fp-square {
+  background-image: url("../flags/1x1/pg.svg")
+}
+
+.fp.ph {
+  background-image: url("../flags/4x3/ph.svg")
+}
+
+.fp.ph.fp-square {
+  background-image: url("../flags/1x1/ph.svg")
+}
+
+.fp.pk {
+  background-image: url("../flags/4x3/pk.svg")
+}
+
+.fp.pk.fp-square {
+  background-image: url("../flags/1x1/pk.svg")
+}
+
+.fp.pl {
+  background-image: url("../flags/4x3/pl.svg")
+}
+
+.fp.pl.fp-square {
+  background-image: url("../flags/1x1/pl.svg")
+}
+
+.fp.pm {
+  background-image: url("../flags/4x3/pm.svg")
+}
+
+.fp.pm.fp-square {
+  background-image: url("../flags/1x1/pm.svg")
+}
+
+.fp.pn {
+  background-image: url("../flags/4x3/pn.svg")
+}
+
+.fp.pn.fp-square {
+  background-image: url("../flags/1x1/pn.svg")
+}
+
+.fp.pr {
+  background-image: url("../flags/4x3/pr.svg")
+}
+
+.fp.pr.fp-square {
+  background-image: url("../flags/1x1/pr.svg")
+}
+
+.fp.ps {
+  background-image: url("../flags/4x3/ps.svg")
+}
+
+.fp.ps.fp-square {
+  background-image: url("../flags/1x1/ps.svg")
+}
+
+.fp.pt {
+  background-image: url("../flags/4x3/pt.svg")
+}
+
+.fp.pt.fp-square {
+  background-image: url("../flags/1x1/pt.svg")
+}
+
+.fp.pw {
+  background-image: url("../flags/4x3/pw.svg")
+}
+
+.fp.pw.fp-square {
+  background-image: url("../flags/1x1/pw.svg")
+}
+
+.fp.py {
+  background-image: url("../flags/4x3/py.svg")
+}
+
+.fp.py.fp-square {
+  background-image: url("../flags/1x1/py.svg")
+}
+
+.fp.qa {
+  background-image: url("../flags/4x3/qa.svg")
+}
+
+.fp.qa.fp-square {
+  background-image: url("../flags/1x1/qa.svg")
+}
+
+.fp.re {
+  background-image: url("../flags/4x3/re.svg")
+}
+
+.fp.re.fp-square {
+  background-image: url("../flags/1x1/re.svg")
+}
+
+.fp.ro {
+  background-image: url("../flags/4x3/ro.svg")
+}
+
+.fp.ro.fp-square {
+  background-image: url("../flags/1x1/ro.svg")
+}
+
+.fp.rs {
+  background-image: url("../flags/4x3/rs.svg")
+}
+
+.fp.rs.fp-square {
+  background-image: url("../flags/1x1/rs.svg")
+}
+
+.fp.ru {
+  background-image: url("../flags/4x3/ru.svg")
+}
+
+.fp.ru.fp-square {
+  background-image: url("../flags/1x1/ru.svg")
+}
+
+.fp.rw {
+  background-image: url("../flags/4x3/rw.svg")
+}
+
+.fp.rw.fp-square {
+  background-image: url("../flags/1x1/rw.svg")
+}
+
+.fp.sa {
+  background-image: url("../flags/4x3/sa.svg")
+}
+
+.fp.sa.fp-square {
+  background-image: url("../flags/1x1/sa.svg")
+}
+
+.fp.sb {
+  background-image: url("../flags/4x3/sb.svg")
+}
+
+.fp.sb.fp-square {
+  background-image: url("../flags/1x1/sb.svg")
+}
+
+.fp.sc {
+  background-image: url("../flags/4x3/sc.svg")
+}
+
+.fp.sc.fp-square {
+  background-image: url("../flags/1x1/sc.svg")
+}
+
+.fp.sd {
+  background-image: url("../flags/4x3/sd.svg")
+}
+
+.fp.sd.fp-square {
+  background-image: url("../flags/1x1/sd.svg")
+}
+
+.fp.se {
+  background-image: url("../flags/4x3/se.svg")
+}
+
+.fp.se.fp-square {
+  background-image: url("../flags/1x1/se.svg")
+}
+
+.fp.sg {
+  background-image: url("../flags/4x3/sg.svg")
+}
+
+.fp.sg.fp-square {
+  background-image: url("../flags/1x1/sg.svg")
+}
+
+.fp.sh {
+  background-image: url("../flags/4x3/sh.svg")
+}
+
+.fp.sh.fp-square {
+  background-image: url("../flags/1x1/sh.svg")
+}
+
+.fp.si {
+  background-image: url("../flags/4x3/si.svg")
+}
+
+.fp.si.fp-square {
+  background-image: url("../flags/1x1/si.svg")
+}
+
+.fp.sj {
+  background-image: url("../flags/4x3/sj.svg")
+}
+
+.fp.sj.fp-square {
+  background-image: url("../flags/1x1/sj.svg")
+}
+
+.fp.sk {
+  background-image: url("../flags/4x3/sk.svg")
+}
+
+.fp.sk.fp-square {
+  background-image: url("../flags/1x1/sk.svg")
+}
+
+.fp.sl {
+  background-image: url("../flags/4x3/sl.svg")
+}
+
+.fp.sl.fp-square {
+  background-image: url("../flags/1x1/sl.svg")
+}
+
+.fp.sm {
+  background-image: url("../flags/4x3/sm.svg")
+}
+
+.fp.sm.fp-square {
+  background-image: url("../flags/1x1/sm.svg")
+}
+
+.fp.sn {
+  background-image: url("../flags/4x3/sn.svg")
+}
+
+.fp.sn.fp-square {
+  background-image: url("../flags/1x1/sn.svg")
+}
+
+.fp.so {
+  background-image: url("../flags/4x3/so.svg")
+}
+
+.fp.so.fp-square {
+  background-image: url("../flags/1x1/so.svg")
+}
+
+.fp.sr {
+  background-image: url("../flags/4x3/sr.svg")
+}
+
+.fp.sr.fp-square {
+  background-image: url("../flags/1x1/sr.svg")
+}
+
+.fp.ss {
+  background-image: url("../flags/4x3/ss.svg")
+}
+
+.fp.ss.fp-square {
+  background-image: url("../flags/1x1/ss.svg")
+}
+
+.fp.st {
+  background-image: url("../flags/4x3/st.svg")
+}
+
+.fp.st.fp-square {
+  background-image: url("../flags/1x1/st.svg")
+}
+
+.fp.sv {
+  background-image: url("../flags/4x3/sv.svg")
+}
+
+.fp.sv.fp-square {
+  background-image: url("../flags/1x1/sv.svg")
+}
+
+.fp.sx {
+  background-image: url("../flags/4x3/sx.svg")
+}
+
+.fp.sx.fp-square {
+  background-image: url("../flags/1x1/sx.svg")
+}
+
+.fp.sy {
+  background-image: url("../flags/4x3/sy.svg")
+}
+
+.fp.sy.fp-square {
+  background-image: url("../flags/1x1/sy.svg")
+}
+
+.fp.sz {
+  background-image: url("../flags/4x3/sz.svg")
+}
+
+.fp.sz.fp-square {
+  background-image: url("../flags/1x1/sz.svg")
+}
+
+.fp.ta {
+  background-image: url("../flags/4x3/ta.svg")
+}
+
+.fp.ta.fp-square {
+  background-image: url("../flags/1x1/ta.svg")
+}
+
+.fp.tc {
+  background-image: url("../flags/4x3/tc.svg")
+}
+
+.fp.tc.fp-square {
+  background-image: url("../flags/1x1/tc.svg")
+}
+
+.fp.td {
+  background-image: url("../flags/4x3/td.svg")
+}
+
+.fp.td.fp-square {
+  background-image: url("../flags/1x1/td.svg")
+}
+
+.fp.tf {
+  background-image: url("../flags/4x3/tf.svg")
+}
+
+.fp.tf.fp-square {
+  background-image: url("../flags/1x1/tf.svg")
+}
+
+.fp.tg {
+  background-image: url("../flags/4x3/tg.svg")
+}
+
+.fp.tg.fp-square {
+  background-image: url("../flags/1x1/tg.svg")
+}
+
+.fp.th {
+  background-image: url("../flags/4x3/th.svg")
+}
+
+.fp.th.fp-square {
+  background-image: url("../flags/1x1/th.svg")
+}
+
+.fp.tj {
+  background-image: url("../flags/4x3/tj.svg")
+}
+
+.fp.tj.fp-square {
+  background-image: url("../flags/1x1/tj.svg")
+}
+
+.fp.tk {
+  background-image: url("../flags/4x3/tk.svg")
+}
+
+.fp.tk.fp-square {
+  background-image: url("../flags/1x1/tk.svg")
+}
+
+.fp.tl {
+  background-image: url("../flags/4x3/tl.svg")
+}
+
+.fp.tl.fp-square {
+  background-image: url("../flags/1x1/tl.svg")
+}
+
+.fp.tm {
+  background-image: url("../flags/4x3/tm.svg")
+}
+
+.fp.tm.fp-square {
+  background-image: url("../flags/1x1/tm.svg")
+}
+
+.fp.tn {
+  background-image: url("../flags/4x3/tn.svg")
+}
+
+.fp.tn.fp-square {
+  background-image: url("../flags/1x1/tn.svg")
+}
+
+.fp.to {
+  background-image: url("../flags/4x3/to.svg")
+}
+
+.fp.to.fp-square {
+  background-image: url("../flags/1x1/to.svg")
+}
+
+.fp.tr {
+  background-image: url("../flags/4x3/tr.svg")
+}
+
+.fp.tr.fp-square {
+  background-image: url("../flags/1x1/tr.svg")
+}
+
+.fp.tt {
+  background-image: url("../flags/4x3/tt.svg")
+}
+
+.fp.tt.fp-square {
+  background-image: url("../flags/1x1/tt.svg")
+}
+
+.fp.tv {
+  background-image: url("../flags/4x3/tv.svg")
+}
+
+.fp.tv.fp-square {
+  background-image: url("../flags/1x1/tv.svg")
+}
+
+.fp.tw {
+  background-image: url("../flags/4x3/tw.svg")
+}
+
+.fp.tw.fp-square {
+  background-image: url("../flags/1x1/tw.svg")
+}
+
+.fp.tz {
+  background-image: url("../flags/4x3/tz.svg")
+}
+
+.fp.tz.fp-square {
+  background-image: url("../flags/1x1/tz.svg")
+}
+
+.fp.ua {
+  background-image: url("../flags/4x3/ua.svg")
+}
+
+.fp.ua.fp-square {
+  background-image: url("../flags/1x1/ua.svg")
+}
+
+.fp.ug {
+  background-image: url("../flags/4x3/ug.svg")
+}
+
+.fp.ug.fp-square {
+  background-image: url("../flags/1x1/ug.svg")
+}
+
+.fp.um {
+  background-image: url("../flags/4x3/um.svg")
+}
+
+.fp.um.fp-square {
+  background-image: url("../flags/1x1/um.svg")
+}
+
+.fp.us {
+  background-image: url("../flags/4x3/us.svg")
+}
+
+.fp.us.fp-square {
+  background-image: url("../flags/1x1/us.svg")
+}
+
+.fp.uy {
+  background-image: url("../flags/4x3/uy.svg")
+}
+
+.fp.uy.fp-square {
+  background-image: url("../flags/1x1/uy.svg")
+}
+
+.fp.uz {
+  background-image: url("../flags/4x3/uz.svg")
+}
+
+.fp.uz.fp-square {
+  background-image: url("../flags/1x1/uz.svg")
+}
+
+.fp.va {
+  background-image: url("../flags/4x3/va.svg")
+}
+
+.fp.va.fp-square {
+  background-image: url("../flags/1x1/va.svg")
+}
+
+.fp.vc {
+  background-image: url("../flags/4x3/vc.svg")
+}
+
+.fp.vc.fp-square {
+  background-image: url("../flags/1x1/vc.svg")
+}
+
+.fp.ve {
+  background-image: url("../flags/4x3/ve.svg")
+}
+
+.fp.ve.fp-square {
+  background-image: url("../flags/1x1/ve.svg")
+}
+
+.fp.vg {
+  background-image: url("../flags/4x3/vg.svg")
+}
+
+.fp.vg.fp-square {
+  background-image: url("../flags/1x1/vg.svg")
+}
+
+.fp.vi {
+  background-image: url("../flags/4x3/vi.svg")
+}
+
+.fp.vi.fp-square {
+  background-image: url("../flags/1x1/vi.svg")
+}
+
+.fp.vn {
+  background-image: url("../flags/4x3/vn.svg")
+}
+
+.fp.vn.fp-square {
+  background-image: url("../flags/1x1/vn.svg")
+}
+
+.fp.vu {
+  background-image: url("../flags/4x3/vu.svg")
+}
+
+.fp.vu.fp-square {
+  background-image: url("../flags/1x1/vu.svg")
+}
+
+.fp.wf {
+  background-image: url("../flags/4x3/wf.svg")
+}
+
+.fp.wf.fp-square {
+  background-image: url("../flags/1x1/wf.svg")
+}
+
+.fp.ws {
+  background-image: url("../flags/4x3/ws.svg")
+}
+
+.fp.ws.fp-square {
+  background-image: url("../flags/1x1/ws.svg")
+}
+
+.fp.xk {
+  background-image: url("../flags/4x3/xk.svg")
+}
+
+.fp.xk.fp-square {
+  background-image: url("../flags/1x1/xk.svg")
+}
+
+.fp.ye {
+  background-image: url("../flags/4x3/ye.svg")
+}
+
+.fp.ye.fp-square {
+  background-image: url("../flags/1x1/ye.svg")
+}
+
+.fp.yt {
+  background-image: url("../flags/4x3/yt.svg")
+}
+
+.fp.yt.fp-square {
+  background-image: url("../flags/1x1/yt.svg")
+}
+
+.fp.za {
+  background-image: url("../flags/4x3/za.svg")
+}
+
+.fp.za.fp-square {
+  background-image: url("../flags/1x1/za.svg")
+}
+
+.fp.zm {
+  background-image: url("../flags/4x3/zm.svg")
+}
+
+.fp.zm.fp-square {
+  background-image: url("../flags/1x1/zm.svg")
+}
+
+.fp.zw {
+  background-image: url("../flags/4x3/zw.svg")
+}
+
+.fp.zw.fp-square {
+  background-image: url("../flags/1x1/zw.svg")
+}

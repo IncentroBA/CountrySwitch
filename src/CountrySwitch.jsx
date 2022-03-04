@@ -1,5 +1,5 @@
 import "./ui/CountrySwitch.css";
-import "flagpack/dist/flagpack.css";
+import "./ui/flagpack.css";
 import { createElement, useState, useEffect } from "react";
 
 export const CountrySwitch = ({ enumeration, ...rest }) => {
