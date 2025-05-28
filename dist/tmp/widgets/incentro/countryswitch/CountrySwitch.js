@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "6a31017205bc37356cc2";
+/******/ 	var hotCurrentHash = "d00bb5565a410b71190d";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -880,7 +880,7 @@ return /******/ (function(modules) { // webpackBootstrap
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".countryswitch {\n  position: relative;\n}\n\n.countryswitch:hover .countryswitch__list {\n  opacity: 1;\n  pointer-events: all;\n}\n\n.countryswitch input {\n  display: none;\n}\n\n.countryswitch__list {\n  background-color: white;\n  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);\n  bottom: 0;\n  list-style: none;\n  max-height: 250px;\n  opacity: 0;\n  overflow-y: auto;\n  padding: 0;\n  position: absolute;\n  pointer-events: none;\n  transform: translateY(calc(100% + 10px));\n  z-index: 1;\n}\n\n.countryswitch__list li {\n  align-items: center;\n  display: flex;\n}\n\n.countryswitch__list .control-label:hover,\n.countryswitch__list li:hover {\n  cursor: pointer;\n}\n\n.countryswitch__list li label {\n  padding: 4px 16px;\n}\n\n.countryswitch__list li span {\n  pointer-events: none;\n}\n\n.countryswitch__list .control-label {\n  margin-bottom: 0;\n  margin-left: 0;\n}\n\n.countryswitch .form-control svg {\n  height: 16px;\n  width: 16px;\n}", ""]);
+exports.push([module.i, ".countryswitch {\n  position: relative;\n}\n\n.countryswitch:hover .countryswitch__list {\n  opacity: 1;\n  pointer-events: all;\n}\n\n.countryswitch input {\n  display: none;\n}\n\n.countryswitch__list {\n  background-color: white;\n  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.15);\n  bottom: 0;\n  list-style: none;\n  max-height: 250px;\n  opacity: 0;\n  overflow-y: auto;\n  padding: 0;\n  position: absolute;\n  pointer-events: none;\n  transform: translateY(calc(100% + 10px));\n  z-index: 1;\n}\n\n.countryswitch__list li {\n  align-items: center;\n  display: flex;\n}\n\n.countryswitch__list .control-label:hover,\n.countryswitch__list li:hover {\n  background-color: var(--countryswitch-hover, var(--brand-primary));\n  color: var(--countryswitch-hover-text, white);\n  cursor: pointer;\n}\n\n.countryswitch__list li label {\n  padding: 12px 16px;\n}\n\n.countryswitch__list li span {\n  pointer-events: none;\n}\n\n.countryswitch__list .control-label {\n  margin-bottom: 0;\n  margin-left: 0;\n}\n\n.countryswitch .form-control svg {\n  height: 16px;\n  width: 16px;\n}\n\n.countryswitch .control-label-name {\n  margin-left: 8px;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -2614,66 +2614,56 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 var _excluded = ["enumeration"];
-
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
-
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
-
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+function _toConsumableArray(r) { return _arrayWithoutHoles(r) || _iterableToArray(r) || _unsupportedIterableToArray(r) || _nonIterableSpread(); }
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
-
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _iterableToArray(r) { if ("undefined" != typeof Symbol && null != r[Symbol.iterator] || null != r["@@iterator"]) return Array.from(r); }
+function _arrayWithoutHoles(r) { if (Array.isArray(r)) return _arrayLikeToArray(r); }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
+function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
 
 
 
 var CountrySwitch = function CountrySwitch(_ref) {
   var enumeration = _ref.enumeration,
-      rest = _objectWithoutProperties(_ref, _excluded);
-
+    rest = _objectWithoutProperties(_ref, _excluded);
   var id = rest.id || "";
   var style = rest["class"] || "";
   var widgetName = rest.name || "";
   var tIndex = rest.TabIndex || "";
-
   var countryList = _toConsumableArray(enumeration.universe);
-
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(null),
-      _useState2 = _slicedToArray(_useState, 2),
-      selectedCountry = _useState2[0],
-      setselectedCountry = _useState2[1];
-
+    _useState2 = _slicedToArray(_useState, 2),
+    selectedCountry = _useState2[0],
+    setselectedCountry = _useState2[1];
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])({}),
+    _useState4 = _slicedToArray(_useState3, 2),
+    countryLabels = _useState4[0],
+    setCountryLabels = _useState4[1];
   Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
     if (enumeration.status =  true && selectedCountry == null) {
+      var labels = {};
+      enumeration.universe.forEach(function (value) {
+        var caption = enumeration.formatter.format(value);
+        labels[value] = caption;
+      });
+      setCountryLabels(labels);
       setselectedCountry(enumeration.value);
     }
   }, [enumeration, selectedCountry]);
-
   function changeSelection(event) {
     var newCountry = event.target.value;
     saveCountry(newCountry);
     setselectedCountry(newCountry);
   }
-
   function saveCountry(newCountry) {
     enumeration.setValue(newCountry);
   }
-
   return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("div", {
     id: id,
     className: "countryswitch mx-radiobuttons ".concat(widgetName, " ").concat(style)
@@ -2710,7 +2700,9 @@ var CountrySwitch = function CountrySwitch(_ref) {
       htmlFor: countryId
     }, /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("span", {
       className: flagpack
-    })));
+    }), /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])("span", {
+      className: "control-label-name"
+    }, countryLabels[country] || country)));
   })));
 };
 

@@ -9,9 +9,16 @@ export const CountrySwitch = ({ enumeration, ...rest }) => {
     const tIndex = rest.TabIndex || "";
     const countryList = [...enumeration.universe];
     const [selectedCountry, setselectedCountry] = useState(null);
+    const [countryLabels, setCountryLabels] = useState({});
 
     useEffect(() => {
         if ((enumeration.status = "available" && selectedCountry == null)) {
+            const labels = {};
+            enumeration.universe.forEach(value => {
+                const caption = enumeration.formatter.format(value);
+                labels[value] = caption;
+            });
+            setCountryLabels(labels);
             setselectedCountry(enumeration.value);
         }
     }, [enumeration, selectedCountry]);
@@ -55,6 +62,7 @@ export const CountrySwitch = ({ enumeration, ...rest }) => {
                             ></input>
                             <label className="control-label" htmlFor={countryId}>
                                 <span className={flagpack}></span>
+                                <span className="control-label-name">{countryLabels[country] || country}</span>
                             </label>
                         </li>
                     );
