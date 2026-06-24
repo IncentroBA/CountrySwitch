@@ -1,42 +1,44 @@
 import "./ui/CountrySwitch.css";
-import "./ui/flagpack.css";
-import { createElement, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export const CountrySwitch = ({ enumeration, ...rest }) => {
     const id = rest.id || "";
     const style = rest.class || "";
     const widgetName = rest.name || "";
     const tIndex = rest.TabIndex || "";
-    const countryList = [...enumeration.universe];
-    const [selectedCountry, setselectedCountry] = useState(null);
+
+    const isAvailable = enumeration && enumeration.status === "available";
+    const countryList = isAvailable && enumeration.universe ? [...enumeration.universe] : [];
+    const selectedCountry = isAvailable ? enumeration.value : "";
+
     const [countryLabels, setCountryLabels] = useState({});
 
     useEffect(() => {
-        if ((enumeration.status = "available" && selectedCountry == null)) {
+        if (isAvailable && enumeration.universe) {
             const labels = {};
             enumeration.universe.forEach(value => {
                 const caption = enumeration.formatter.format(value);
                 labels[value] = caption;
             });
             setCountryLabels(labels);
-            setselectedCountry(enumeration.value);
         }
-    }, [enumeration, selectedCountry]);
+    }, [enumeration, isAvailable]);
 
     function changeSelection(event) {
         const newCountry = event.target.value;
         saveCountry(newCountry);
-        setselectedCountry(newCountry);
     }
 
     function saveCountry(newCountry) {
-        enumeration.setValue(newCountry);
+        if (isAvailable) {
+            enumeration.setValue(newCountry);
+        }
     }
 
     return (
         <div id={id} className={`countryswitch mx-radiobuttons ${widgetName} ${style}`}>
             <div className="form-control" tabIndex={tIndex}>
-                <span className={`fp ${selectedCountry && selectedCountry.toLowerCase()}`}></span>
+                <span className={`fp ${selectedCountry ? selectedCountry.toLowerCase() : ""}`}></span>
                 <svg
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +60,8 @@ export const CountrySwitch = ({ enumeration, ...rest }) => {
                                 type="radio"
                                 name="CountrySwitch"
                                 value={country}
-                                onChange={() => changeSelection(event)}
+                                onChange={changeSelection}
+                                checked={selectedCountry === country}
                             ></input>
                             <label className="control-label" htmlFor={countryId}>
                                 <span className={flagpack}></span>
